@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.kaggle/
+*.zip
+
+# Dataset biasanya besar, upload seperlunya saja
+# Hapus tanda # jika ingin mengabaikan dataset saat push ke GitHub
+# dataset/*
+# !dataset/README.txt
+# !dataset/.gitkeep
+
+# Model harus ikut di-push jika ingin fitur prediksi aktif di Streamlit Cloud
+# Pastikan ukuran model tidak lebih dari batas GitHub/Streamlit.
